@@ -40,7 +40,6 @@ function randomize(data1) {
     for (var ij = 1; ij <= number_of_ques; ij++) {
         num.push(ij);
      }
-    // let num = range(0,10)//, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
 
     while (i < number_of_ques ) {
         let random = Math.floor(Math.random() * num.length)
@@ -69,14 +68,14 @@ app.get('/admin', (req, res) => {
 
 app.get('/api/:testid', (request, response) => {
     
-    console.log("Reqfdfa",request.params.testid);
+    console.log("Test-ID:",request.params.testid);
     question_bank.find({uid:request.params.testid}, (err, data) => {
         if (err) {
             console.log("error bhai");
             response.end();
             return;
         }
-        console.log("dotaaaaaaaaaaa",data);
+        console.log("Question-bank:",data);
         response.send(randomize(data));
     });
 });
@@ -108,7 +107,7 @@ app.post('/otp', (req, res) => {
 
 
 app.post('/result', (request, response) => {
-    console.log("result inside",request.body);
+    console.log("Result:",request.body);
     const data = request.body;
 
     users_score.insert(data);
@@ -125,7 +124,7 @@ app.post('/add_questions', (request, response) => {
         user_ques:data.user_ques,
         uid:data.uid
     }
-    console.log("Datraga",data1);
+    console.log("Que-data:",data1);
     question_bank.insert(data1);
 });
 

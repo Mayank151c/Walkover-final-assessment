@@ -49,7 +49,8 @@ function interval() {
         timer--;
         if (timer < 0) {
             clearInterval(countdown);
-            window.location.href = "http://localhost:4821/result";
+            window.location.href = "http://localhost:3000/score.html?u"+limit;
+            // window.location.href = "http://mcq1.herokuapp.com/score.html?u"+limit;
         }
     }, 1000);
 }

@@ -10,7 +10,6 @@
 body {
     background: cornflowerblue;
     color: black;
-    background-size: 120% 120vh;
     align-items: center;
     justify-content: center;
 }
@@ -55,7 +54,7 @@ button,#testid{
     font-size: 50px;
     color: white;
     padding: 5px;
-    width: 100vw;
+    width: 98.4vw;
     background: black;
 }
 
@@ -63,9 +62,8 @@ button,#testid{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 80vw;
+    width: 75vw;
     height: 500px;
-    margin: 50px;
     margin-top: 20px;
 }
 

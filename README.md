@@ -1,7 +1,10 @@
 
 <hr> 
- 
-## <div align=center><u>MCQs-Test-Platform</u><br>Walkover-final-assignment</div>
+<p align="center">
+<img  src="https://github.com/Mayank151c/walkover-final-assessment/blob/master/public/img/heading.gif?raw=true"  alt="MCQs Test Platform"> 
+
+## <p align=center>Walkover-final-assignment</p>
+</p>
 
 #### <u>Intruduction</u>
 This is a web application for hosting MCQs(Multiple choice question) based test online, which is made on top of Node.js and Express.js.<br><br>
@@ -46,6 +49,8 @@ Admin has following rights :
 
 #### <u>Deployment</u>
 Application is deployed on top of CI/CD pipeline of Heroku platform.
+
+<img src="https://github.com/Mayank151c/walkover-final-assessment/blob/master/public/img/deploy.jpg?raw=true" width="100%">
 
 | Web-page | Link | 
 |   ----   | ---- |

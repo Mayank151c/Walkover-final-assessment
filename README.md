@@ -32,7 +32,7 @@ Admin has following rights :
 - [x] Question order shall be shuffled for each candidate appearing
 - [x] Assessment score shall be generated at the time of submission
 ##### Additional
-- Easly understandable/accessable UI.
+- Easily understandable/accessable UI.
 - Result are sorted by marks in Scoreboard.
 <hr>
 
@@ -57,6 +57,7 @@ Application is deployed on top of CI/CD pipeline of Heroku platform.<br><br>
 |   ----   | ---- |
 | Live Project|[`Click here`](https://mcqs1.herokuapp.com/)| 
 | Admin-Login |[`Click here`](https://mcqs1.herokuapp.com/adminLogin.html) |
+| Demo-video  |[`Click here`](https://youtu.be/ke7802cF8dU) |
 
 <hr>
 

@@ -7,11 +7,30 @@
     font-family: 'Mirza', cursive;
 }
 
-#container {
-    background: url(https://img.freepik.com/free-photo/background-texture-printed-question-marks_124595-213.jpg?size=626&ext=jpg);
+#head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+    color: white;
+    padding: 5px;
+    height: 60px;
     width: 100vw;
-    height: 100vh;
+    background: black;
+}
+#head img{
     display: flex;
+    justify-content: center;
+    width: 455px;
+    height: 55px;
+    margin: auto;
+}
+
+#container {
+    background: cornflowerblue;
+    width: 100vw;
+    display: flex;
+    padding-top: 3rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -19,16 +38,15 @@
 }
 
 .question-section {
-    width: 80%;
+    width: 100vw;
     height: 600px;
+
 }
 
 #heading {
     font-size: 50px;
     margin: 20px;
-    margin-top: 40px;
     position: relative;
-    background: white;
     border: 0px;
     border-radius: 8px;
     padding: 8px;
@@ -38,12 +56,11 @@
 }
 
 .question-form {
-    position: absolute;
-    left: 17rem;
     background: #9147FF;
     display: flex;
     height: 75vh;
-    width: 60vw;
+    width: 80vw;
+    margin: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;

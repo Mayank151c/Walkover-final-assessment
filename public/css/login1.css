@@ -4,14 +4,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'IBM Plex Sans Condensed',
-        sans-serif;
-    font-family: 'Mirza',
-        cursive;
+    font-family: 'Mirza';
 }
 
 body {
-    background: #ebeae9;
+    background: cornflowerblue;
     color: black;
     background-size: 120% 120vh;
     align-items: center;
@@ -59,7 +56,7 @@ button,#testid{
     color: white;
     padding: 5px;
     width: 100vw;
-    background: #563d7c;
+    background: black;
 }
 
 .login-section {
@@ -69,6 +66,7 @@ button,#testid{
     width: 80vw;
     height: 500px;
     margin: 50px;
+    margin-top: 20px;
 }
 
 #login {
@@ -80,7 +78,7 @@ button,#testid{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 #login {
@@ -103,8 +101,10 @@ button,#testid{
 }
 
 .adminbuttonmain{
-    display: flex;
+    /* display: flex; */
+    margin: 1rem auto;
     flex-direction: column;
+    width: 600px;
 }
 
 #start-test-button,#testid {
@@ -140,6 +140,11 @@ input:active {
     border-shadow: 1px 2px 0 0 grey;
     border-radius: 10px;
     background: slateblue;
+    color: white;
+}
+
+#login p{
+    font-size: 1.5rem;
 }
 
 button{
@@ -170,11 +175,18 @@ button{
     margin: 2rem;
 }
 
-@media only screen and (max-width: 625px) {
+@media only screen and (max-width: 655px) {
     #testid{
         width: 300px;
     }
+    .adminbuttonmain{
+        width: 375px;
+    }
     #contactForm input{
         width: 300px;
+    }
+    #contactForm{
+        width: 400px;
+        margin: 0;
     }
 }

@@ -6,8 +6,7 @@
     margin: 0;
     font-family: 'IBM Plex Sans Condensed',
         sans-serif;
-    font-family: 'Mirza',
-        cursive;
+    font-family: 'Mirza',;
 }
 
 body {
@@ -27,6 +26,25 @@ body {
 
 }
 
+#head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+    color: white;
+    padding: 5px;
+    height: 60px;
+    width: 100vw;
+    background: black;
+}
+#head img{
+    display: flex;
+    justify-content: center;
+    width: 455px;
+    height: 55px;
+    margin: auto;
+}
+
 #heading {
     text-align: center;
     font-size: 2.2em;
@@ -35,12 +53,9 @@ body {
 }
 
 #main-container {
-    width: 1100px;
+    width: 100vw;
     height: 550px;
     border-radius: 25px;
-    background: url(https://img.freepik.com/free-photo/background-texture-printed-question-marks_124595-213.jpg?size=626&ext=jpg);
-    padding: 1em;
-    margin-top: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,10 +75,10 @@ body {
 }
 
 #question-container {
-    width: 800px;
+    width: 80%;
     height: 400px;
     background: white;
-    margin-top: 1em;
+    margin-top: 1.2rem;
     border-radius: 2em;
     border: 0.1px;
     align-items: center;
@@ -75,7 +90,7 @@ body {
 
 #question {
     background: rgb(142, 142, 145);
-    width: 800px;
+    width: 100%;
     font-size: 1.6em;
     padding: 0.4em;
     border-radius: 1em 1em 0 0;
@@ -103,7 +118,7 @@ label {
 }
 
 #next-button {
-    margin-left: 2.8em;
+    /* margin-left: 3em; */
     width: 700px;
     text-align: center;
 }

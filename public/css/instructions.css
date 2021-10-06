@@ -10,8 +10,24 @@
         cursive;
 }
 
+#head {
+    font-size: 50px;
+    color: white;
+    padding: 5px;
+    height: 60px;
+    width: 100vw;
+    background: black;
+}
+#head img{
+    display: flex;
+    justify-content: center;
+    width: 455px;
+    height: 55px;
+    margin: auto;
+}
+
 body {
-    background: url("../img/background.png") no-repeat center;
+    background: #ebeae9;
     background-size: 120% 100vh;
 
 }
@@ -27,7 +43,7 @@ body {
 
 #main-container {
     background-color: white;
-    width: 1300px;
+    width: 600px;
     height: 80%;
     border-radius: 25px;
     padding: 2em;
@@ -37,7 +53,7 @@ body {
 }
 
 .section1 {
-    width: 49%;
+    width: 100%;
     padding-left: 2em;
     display: flex;
     flex-direction: column;
@@ -51,7 +67,6 @@ body {
 
 
 #heading {
-
     text-align: center;
     font-size: 2.3em;
     font-family: 'Glory',
@@ -65,11 +80,6 @@ li {
         sans-serif;
     line-height: 1.8;
     font-size: 18px;
-}
-
-img {
-    width: 110%;
-    height: 100%;
 }
 
 .wish-text {
@@ -108,38 +118,8 @@ a {
 /* mobile css */
 
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 1050px) {
-    li {
-        font-size: 14px;
-    }
-}
-
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 735px) {
-
-    #main-container {
-        flex-direction:column-reverse;
-        height: 100%;
-        padding: 10px;
-    }
-
-    img{
-        height: 250px;
-        width: 350px;
-    }
-
-    .section1 {
-        width: 100%;
-    }
-    .section2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
-    #heading,#wish {
-        font-size: 25px;
+@media only screen and (max-width: 655px) {
+    #main-container{
+        width: 450px;
     }
 }

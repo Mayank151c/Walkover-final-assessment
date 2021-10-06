@@ -47,8 +47,9 @@ Admin has following rights :
 >[Mohammad Tabish]()    <br>
 <hr>
 
-#### <u>Deployment</u>
-Application is deployed on top of CI/CD pipeline of Heroku platform.
+#### <u>CI / CD details</u>
+Application is deployed on top of CI/CD pipeline of Heroku platform.<br>
+**Setup Details**
 
 <img src="https://github.com/Mayank151c/walkover-final-assessment/blob/master/public/img/deploy.jpg?raw=true" width="100%">
 

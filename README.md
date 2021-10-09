@@ -72,7 +72,7 @@ Steps to setup and run our project locally on your machine
 >4. Install the required packages by command <br>
 `npm install`
 >
-> &ensp;&ensp;**Note** : `comment line:57 & uncomment line:54 to run in local`
+> &ensp;&ensp;**Note** : `In assessment.js comment line:57 & uncomment line:54 to run in local`
 
 >5. Start local-server by command <br>
 `npm start`
